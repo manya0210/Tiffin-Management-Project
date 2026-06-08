@@ -20,8 +20,8 @@ function Navbar() {
           <span>Weekly Menu ▾</span>
 
           <div className="dropdown-content">
-            <Link to="/subscription/lunch">Lunch</Link>
-            <Link to="/subscription/dinner">Dinner</Link>
+            <Link to="/menu/lunch">Lunch</Link>
+            <Link to="/menu/dinner">Dinner</Link>
           </div>
         </div>
 
