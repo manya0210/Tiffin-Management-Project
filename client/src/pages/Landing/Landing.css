@@ -1,0 +1,31 @@
+.landing-container {
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.back-img{
+  background-image: url("/images/tiffinmain.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.get-started{
+  height: 40px;
+  width: 100px;
+  background-color: #ff8935;
+  border-radius: 7px;
+  border: none;
+}
+
+.text{
+  padding-top: 40px;
+  padding-left: 30px;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+}
