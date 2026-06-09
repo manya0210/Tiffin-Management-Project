@@ -1,0 +1,15 @@
+.menu-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.menu-card h2 {
+  color: #e67e22;
+  margin-bottom: 15px;
+}
+
+.menu-card p {
+  margin: 8px 0;
+}
