@@ -44,7 +44,7 @@ function Navbar() {
               {currentUser.role[0].toUpperCase()}
             </div>
 
-            <span className="role-text">{currentUser.role}</span>
+            {/* <span className="role-text">{currentUser.role}</span> */}
 
             <button className="logout-btn" onClick={handleLogout}>
               Logout
