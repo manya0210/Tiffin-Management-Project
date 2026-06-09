@@ -92,6 +92,10 @@ function Dashboard() {
 
             <div className="card">
 
+               <div className="status-badge">
+                📦 Active Subscription
+              </div>
+
               <div
                 className={
                   status === "Active"
@@ -105,7 +109,7 @@ function Dashboard() {
               <h2>30 Meal Plan</h2>
 
               <p>
-                Days Remaining: 12
+                Meals Remaining: 12
               </p>
 
               <p>
@@ -170,7 +174,7 @@ function Dashboard() {
                 </div>
 
                 <div className="stat-box">
-                  <h3>8</h3>
+                  <h3>12</h3>
                   <p>Meals Left</p>
                 </div>
 
@@ -202,19 +206,19 @@ function Dashboard() {
                 <tr>
                   <td>08 Jun</td>
                   <td>Lunch</td>
-                  <td>Delivered</td>
+                  <td>Recieved</td>
                 </tr>
 
                 <tr>
                   <td>07 Jun</td>
                   <td>Lunch</td>
-                  <td>Delivered</td>
+                  <td>Received</td>
                 </tr>
 
                 <tr>
                   <td>06 Jun</td>
                   <td>Lunch</td>
-                  <td>Delivered</td>
+                  <td>Received</td>
                 </tr>
               </tbody>
 
@@ -244,6 +248,7 @@ function Dashboard() {
               <strong>Phone:</strong>{" "}
               9876543210
             </p>
+
 
             <button className="edit-btn">
               Edit Profile

@@ -1,6 +1,7 @@
 import MenuCard from "../../components/MenuCard";
 import "./MenuPage.css";
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer/Footer";
 
 function DinnerMenu() {
 
@@ -81,6 +82,7 @@ function DinnerMenu() {
       </div>
 
     </div>
+    <Footer/>
     </>
   );
 }
